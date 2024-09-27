@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+:root{
+ --cor1:#f3cde7;
+ --cor2:#353238;
+ --cor3:#F6659C;
+ --cor4:#D20C57;
+ --fonteTitulo: "Fredoka", sans-serif;
+}
+
+
+header img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+
+nav{
+    background-color: var(--cor3); 
+    width: 1600px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    /* height: 40px; */
+    text-align: center;
+    box-shadow: -1px 9px 12px rgb(91, 90, 91);
+    margin-top: 2px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor2);
+    padding: 50px;
+    font-family: "Fredoka", sans-serif;;
+}
+
+nav a:hover{
+    color: white;
+}
+
+main img{
+    width: 1600px;
+    height: 300px;
+}
+
+#audio{
+    text-align: center;
+    margin-top: 80px;
+    margin-right: -10px;
+}
+
+article{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+article h3, article p {
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}
+
+section img{
+    height: 160px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.gallery div{
+    display: inline;
+    margin: 10px;
+    height: 130px;
+  
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    padding: 90px;
+    padding-left: 150px;
+    margin-left: 70px;
+    height: 270px;
+}
+
+div.gallery:hover {
+    transition: 0.5s;
+    border: 1px solid var(--cor2)
+}
+
+div.gallery img {
+    width: 100px;
+    padding-top: -10px;
+    height: 0 auto;
+    margin-top: 30px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery img:hover{
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+#contato{
+    width: 700px;
+    height: 640px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
+    padding-left: 10px;
+    font-family: var(--fonteTitulo);
+}
+
+#contato h2{
+    text-align: center;
+}
+
+
+#msg{
+    height: 50px;
+    width: 400px;
+}
+
+
+fieldset{
+    background-color: var(--cor1);
+    border-radius: 6px;
+}
+
+fieldset p{
+    padding-bottom: -10px;
+}
+
+label{
+    border-radius: 10px;
+}
+
+input[type="text"],input[type="email"]
+select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button{
+    margin-top: -4px;
+    display: block;
+    margin-left: 37%;
+    width: 20%;
+    padding: 10px;
+    background-color:var(--cor2);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+button:hover{
+    background-color:var(--cor4);
+    color:rgb(255, 255, 255);
+    transition-duration: 1.5s;
+    padding: 10px;
+    text-shadow: #fffcfc 5px, 5px, 5px;
+}
+
+.quiz-section{
+    background-color: var(--cor1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 600px;
+    margin-top: 8%;
+    margin-left: 28%;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#quiz-form{
+    /* text-align: center; */
+    font-family: var(--fonteTitulo);
+    margin-top: 40px;
+}
+
+#centro{
+    text-align: center;
+}
+
+
+fieldset{
+    margin-top: 10px;
+}
+
+#enviar, #reenviar{
+    width: 200px;
+    margin-bottom: 21px;
+    margin-top: 15px;
+    margin-left: 197px;
+
+}
+
+footer{
+    background-color: var(--cor3);
+    margin-top: 300px;
+}
+
+footer img{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}

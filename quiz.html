@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sublime Beleza</title>
+</head>
+<body>
+    
+    <header>
+        <img src="imagens/logo2.png" alt="">
+    </header>
+
+    <nav>
+        <a href="index.html" target="_blank">Menu</a>
+        <a href="produtos.html" target="_blank">Produtos</a>
+        <a href="quiz.html" target="_blank">Quiz</a>
+        <a href="contato.html" target="_blank">Contato</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <img src="imagens/Únicas.png" alt="">
+        </section>
+
+        <section class="quiz-section">
+            <h2 id="centro">Quiz sobre cosméticos</h2>
+            
+            <form id="quiz-form">
+                
+                <fieldset>
+                    <section class="question">
+                        <h3>1. Qual é a principal função do ácido hialurônico em produtos cosméticos?</h3>
+                        <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()">A) Clarear a pele</label><br>
+                        <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()">B) Hidratar a pele</label><br>
+                        <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()">C) Reduzir rugas de expressão</label><br>
+                        <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()">D) Proteger contra raios UV</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>2. Qual é a ordem correta de aplicação de produtos no skincare?</h3>
+                        <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()">A) Protetor solar → Sérum → Hidratante</label><br>
+                        <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()">B) Protetor solar → Sérum → Hidratante</label><br>
+                        <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()">C) Sérum → Hidratante → Protetor solar</label><br>
+                        <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()">D) Protetor solar → Hidratante → Sérum</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>3. Qual o papel dos antioxidantes como a Vitamina C nos cosméticos?</h3>
+                        <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()">A) Prevenir o envelhecimento precoce</label><br>
+                        <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()">B) Aumentar a produção de melanina</label><br>
+                        <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()">C) Diminuir a produção de colágeno
+                        </label><br>
+                        <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()">D) Promover a oleosidade da pele</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>4. Qual ingrediente é comumente utilizado para esfoliar a pele de maneira química?</h3>
+                        <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()">A) Ácido salicílico</label><br>
+                        <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()">B) Ácido hialurônico</label><br>
+                        <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()">C) Glicerina</label><br>
+                        <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()">D) Alantoína</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>5. Qual é a diferença entre um protetor solar químico e um físico?</h3>
+                        <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()">A) O protetor químico reflete a luz e o físico absorve os raios UV</label><br>
+                        <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()">B) O protetor físico absorve os raios UV e o químico os reflete</label><br>
+                        <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()">C) O protetor físico reflete os raios UV e o químico os absorve</label><br>
+                        <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()">D) Não há diferença entre os dois</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>6. Qual é o pH ideal para um sabonete facial?</h3>
+                        <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()">A) Entre 3 e 4</label><br>
+                        <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()">B) Entre 5 e 6</label><br>
+                        <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()">C) Entre 7 e 8</label><br>
+                        <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()">D) Acima de 9</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>7. Qual é a principal função dos filtros solares com cor?</h3>
+                        <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()">A) Promover apenas a estética</label><br>
+                        <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()">B) Oferecer proteção contra luz visível</label><br>
+                        <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()">C) Aumentar a oleosidade da pele</label><br>
+                        <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()">D) Melhorar a absorção dos raios UV</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>8. Qual ingrediente é conhecido por suas propriedades calmantes e regeneradoras?</h3>
+                        <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()">A) Retinol</label><br>
+                        <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()">B) Ácido glicólico</label><br>
+                        <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()">C) Aloe vera</label><br>
+                        <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()">D) Ácido lático</label><br>
+                    </section>
+                </fieldset>
+
+                <fieldset>
+                    <section class="question">
+                        <h3>9. Qual é a principal diferença entre um hidratante e um emoliente?</h3>
+                        <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()">A) Emoliente é mais líquido que hidratante</label><br>
+                        <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()">B) Hidratante restaura a água da pele; emoliente suaviza e amacia</label><br>
+                        <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()">B) Hidratante previne acne; emoliente é para rugas</label><br>
+                        <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()">B) Hidratante é usado em peles oleosas; emoliente em peles secas</label><br>
+                    </section>
+                </fieldset>
+
+            <fieldset>
+                <section class="question">
+                    <h3>10. Qual ácido é comumente utilizado para tratar manchas escuras e hiperpigmentação?</h3>
+                    <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()">A) Ácido salicílico</label><br>
+                    <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()">B) Ácido glicólico</label><br>
+                    <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()">B) Ácido azelaico</label><br>
+                    <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()">B) Ácido mandélico</label><br>
+                </section>
+            </fieldset>
+    
+            
+                <!-- repita a estrutura acima para as outras perguntas -->
+                
+                <button type="button" id="enviar" onclick="submitQuiz()">Enviar resposta</button>
+                <button type="button" id="reenviar" onclick="replayQuiz()" disabled>Responder novamente</button>
+            </form>
+    
+                <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+                <audio id="selecionarsom" src="som/seleciona.mp3" preload="auto"></audio>
+                <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+    
+                <section id="result"></section>
+            
+        </section>
+    </main>
+    
+    <footer>
+        <img src="imagens/rodape3.png" alt="">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
